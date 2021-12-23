@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <title>Responsive Layout</title>
+  <style>
+    @media (min-width: 768px) and (max-width: 991px){
+      div{
+        margin-bottom: 10px;
+      }
+      .new{
+        max-width: 100%;
+      }
+    }
+    @media (min-width: 100px) and (max-width: 767px){
+      div{
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Our Menu</h1>
+  <div>
+    <p class="first">Chicken</p>
+    <p class="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem impedit harum maxime nobis quos nihil rerum nesciunt vel. Explicabo, excepturi eum amet commodi temporibus consequuntur voluptatum quis error molestiae corporis.</p>
+  </div>
+  <div>
+    <p class="first" style="background-color: red;color: white;">Beef</p>
+    <p class="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem impedit harum maxime nobis quos nihil rerum nesciunt vel. Explicabo, excepturi eum amet commodi temporibus consequuntur voluptatum quis error molestiae corporis.</p>
+  </div>
+  <div class="new">
+    <p class="first" style="background-color: yellow;">Sushi</p>
+    <p class="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem impedit harum maxime nobis quos nihil rerum nesciunt vel. Explicabo, excepturi eum amet commodi temporibus consequuntur voluptatum quis error molestiae corporis.</p>
+  </div>
+</body>
+</html>
